@@ -39,4 +39,19 @@ git init
 ```git
 git status => ver el estado del 
 git add . => agregar todos los archivos al stage(prepararlos para el commit)
+```
 
+* Crear el registr de los cambios realizados
+```bash
+git commit -m "feat:name_branch : describe change"
+```
+
+* Ver el historial de cambio
+```bash
+git log
+```
+
+* Para poder ver el detalle de un commit especifico usamos
+```bash
+git show id-de-commit
+```
