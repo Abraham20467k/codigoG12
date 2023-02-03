@@ -55,3 +55,9 @@ git log
 ```bash
 git show id-de-commit
 ```
+
+
+* Para modificar una rama local
+```bash
+git branch -M main
+```
