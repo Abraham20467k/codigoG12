@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
+input {
+  width: :350px;
+  /* espacio interno */
+  padding:10px;
+}
+
+/*
+Para acceder a un elemmento pro class usamos el 
+*/
+.form-input{
+ border-radius: 12px;
+ border:0.5px solid #ccc;
+}
+
+/* 
+LOs id's se usan para casos especificos donde
+no queremos reutilizar estilos 
+id => #id */
+#boton-enviar{
+  background-color: rgb(237, 100, 118);
+  border: none;
+  color:#fff;
+  padding: 12px;
+  border-radius: 6px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* cuando colocamos el mouse sobre un 
+elemento este tiene la propiedad hover
+*/
+#boton-enviar:hover{
+  background-color: tomato;
+  border: 1x solid #000;
+}
